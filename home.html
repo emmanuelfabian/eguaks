@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eguaks</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Eguaks</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <!-- <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li> -->
+              <!-- <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li> -->
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <!-- <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li> -->
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/logo-big.png" alt="logo" width="130"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello, I am Emmanuel Eguakhide  !</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">I am a UI/ UX designer and developer with over 3 years experience in designing websites, mobile apps and online products.</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>Hiya, I'm Emmanuel - a designer, developer, and researcher hoping to solve many more online problems especially in the Financial space.</p>
+            <p> I am currently based in Lagos, Nigeria. Growing up, I learned everyone has a story to tell, and it's important to be open to change and fresh ideas</p>
+            <p>Currently, I'm a UI/ UX designer with Guaranty Trust Bank. I design new fintech experiences for the bank, and also figure out how best answer users sepcific needs and challenges. </p>
+            <p>Outside of design, I'm a major football fan, and enjoy exploring the green outdoors.
+            <p>I'm always down to collaborate when I have the time. Reach out and let's chat!</p>
+
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">DIGITAL PRODUCTS</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">BACK END (.NET)</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 65%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">FRONT END (IONIC)</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">UI/UX</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">USER RESEARCH</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/about00.jpg" alt="This is me - IT worker" class="image rounded-rectangle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <!-- <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Services</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-search"></i></div>
+            <h3 class="heading mb-3 text-400">Consulting</h3>
+            <p class="text-left description">On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-html5"></i></div>
+            <h3 class="heading mb-3 text-400">HTML coding</h3>
+            <p class="text-left description">Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">PHP webdelopment</h3>
+            <p class="text-left description">Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no be deal.</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section> -->
+    <!-- Testimonials-->
+    <!-- <section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">My customers said<br><span>about me</span></h2>
+          <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What is happened to me? &quot; he thought. It was not a dream.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-3.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- Statistics-->
+    <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center"> 
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-align-justify"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">40</span><br>Websites and Mobile Apps</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">23</span><br>Satisfied Clients</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-copy"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">95</span><br>Projects</h5>
+            </div>
+          </div>
+          <!-- <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-font"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">333</span><br>Magazines and Brochures</h5>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section>
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>
+            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+          </div>
+          <!-- <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="webdesign">Webdesign</a></li>
+            <li><a href="#" data-filter="seo">SEO</a></li>
+            <li><a href="#" data-filter="marketing">Marketing</a></li>
+            <li><a href="#" data-filter="other">Other</a></li>
+          </ul> -->
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-1.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Digital Elites</h3>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg," class="sr-only reference-description">
+                        
+                        <p>An expense tracking app that also helps provides info on discounted sales from selected merchants.</p>
+                        <p> <p><h3>ROLE</h3></p>
+                        Digital Elites is an expense tracking application borne out of a need to encourage a savings culture among the digital natives while still pushing discounted merchants products to them.
+                        
+                        Some of my key roles on this product includes: Product Strategy, User Research, Interaction, Visual design, Prototyping & Testing, Information Architecture, Pitching.
+                        
+                        <p>Jan 2020 - December 2020</p>
+                        
+                        
+                        Joining any project is never a step that is taken lightly, especially when it requires weekends and working out of hours to bootstrap things together, and demonstrates genuine leadership.
+                        
+                       
+                        <p><h3>Background</h3></p>
+                        <p>
+                        With the growing number of Fintech applications out in the market aimed at encouraging saving from young Millenials with non actually suggesting how these young ones can cut cost,Digital Elites aims to shine the light on these grey areas based on insight gathered from the spending culture of these users.</p>
+                        
+                        <p>I served here as the sole product designer and it was a small team of 4 engineers and myself. I led the product,UX and UI strategy for the team. I've been extremely fortunate to have part of this journey and have grown tremendously during my time working on Digital Elites, some key achievements of which I have listed below:
+                        <p>Turned an idea into a product. </p>
+                        <p>The ability to transform an idea into something much more tangible is a process that is both exhilarating and rewarding.</p>
+                        <p>Juggled many different hats. I developed skills in not only designing our pitches but also presenting them to management staff.
+                       
+                       <p><h3>Understanding the problem</h3></p>
+
+                        As a university student, I understood the pains of not being able to save much due to low income flow. I wanted to validate these problems with peers so I took the initiative to Work with 13 random university students who were looking to save more and get cheaper deals.
+                        After listening to these students we decided to design a product around them to help them save and give them daily insights into their spending habit as well as push discounted prices of their most frequent purchases daily.</p>  
+                        
+                        <h3>User personas</h3>
+                        Based on our research, we recognised that there were 3 key user types that our product tried to solve problems for. We decided to focus on Persona 1 since their need was greatest and we could reach them via universities, bootcamps and education providers.
+                        
+                        
+                        <h3> Defining the MVP</h3>
+
+                        <p>I conducted workshops and sketching sessions with the team to map out the user flow and come up with a storyboard to capture the MVP.
+                        </p>
+                        We identified the following key features:
+                        <p>Goal definition. Allow users to set a  goal and specify the level that they want to get to in that savings goal.
+                        </p>
+                      <p>List of recommendations.</p>
+                    <p>Connecting with merchants.</p> 
+                  <p>Tracking of development. View your progress over time to see how you are tracking towards your goal.</p>
+                        
+                        
+                        <h3>Designs</h3>
+                        User testing was an iterative process that was conducted at every milestone of the project to identify the biggest pain points in the current version. Once feedback was gathered, I would revisit the prototypes and test again.
+                        ‍
+                        For the brand, I wanted to create a refreshing, minimalist and clean UI that conveyed trustworthiness and progression for future-oriented individuals.
+                        
+                      <p>Sign up page
+                        A simple sign up page that allow users to either log in or create a new account using email or phone number.
+                      </p>
+                    <p>Browse recommendations
+                        Once users have established a goal, we show them a list of merchants on the app and how the discount works.
+                      </p>
+                    <p>Progress dashboard
+                        As a user completes activities, they can view their progress towards their goal and see a breakdown of their savings so far.
+                      <p>
+                      <p>Profile
+                        Ultimately the goal of Digital Elites is to provide jobseekers and employers with an interactive profile that goes beyond a resume. The idea to show a resume that is forward looking, rather than just a snapshot of their history, which illustrates the goals and development of the individual over time.
+                      </p>
+                    <p> Working with developers
+                    </p>I worked closely with a team of 4 engineers to develop the designs for MVP. 
+                        
+                       
+                        
+                        <h3>Results and takeaways</h3>
+                        Working in  startup was athe project was an extremely steep learning curve. It was an eye-opening experience that taught me a lot about being lean and knowing when and where to focus your energy and efforts.
+                        ‍
+                        Some key takeaways from this project are:
+                        Focus on building an MVP. 
+                        Don't worry too much about the detail. Earlier in my journey, I made the mistake of worrying about the look of the UI. Taking a step back and reassessing the user flows helped me to reprioritise the UX.
+                        Focus on the problem. At the end of the day, it is your users pains that you will be solving for so keeping that front of mind is important as it's easy to lose sight of this when you're bogged down in the day to day.
+                     
+                        
+                        </p></p>
+                        <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Server Monitoring App</h3>
+                            <p></p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider21.jpg,img/main-slider22.jpg" class="sr-only reference-description">
+                        <p>An app for real time analysis of internal server's status .</p>
+                        <p>
+                          <h3>ROLE</h3>
+                          The Server Monitoring app started with the vision of improving the efficiency of the GTBank developer portal, by improving the uptimes of the servers.
+                          
+                          The goal of this particular project was to identify any usability issues with the beta release and determine the critical features to prioritise for the next iteration of the product.
+                          Product Designer
+                          User Research, Interaction, Visual design, Prototyping & Testing
+                        </p> 
+
+                         <p> July 2020 - Ongoing </p>
+                        
+                          <h3>Background</h3>
+           
+                          I started as the product designer a year ago as one of 2 designers in a company of over 70 engineers and 15 product managers. I support design across every aspect of our business and am responsible for leading UX and UI across key parts of the application side of the platform.
+                          I've grown tremendously in the last year, some key achievements of which I have listed below:
+                          Implemented a design process. This has helped our team establish more structure to how we conduct our work and allow other teams to gain visibility across our upcoming sprints.
+                          Improved usability across the platform. No usability tests were conducted by the external consultancy before dev handoff. Since we established a design team, we have been actively working towards conducting UX research and usability testing on all projects.
+                          Establishing a design kit. This has helped to maintain consistency in the look and feel across different parts of the platform.  
+                          Establishing a design system.  This has helped the Engineering and Product teams to understand how and why we choose to implement certain components over others.
+                          
+                          <h3>The process</h3>
+                          <p>Our process at The Server Monitoring app is based on the Double Diamond Theory and Lean UX process. We aim to incorporate the key phases of Discovery, Definition, Ideation and Implementation in all of our projects.
+                          </p>
+                        <h3>Understanding the problem</h3>
+
+                        <p>The challenge here was to have an internal real time access to the states of the servers and take necessary actions when any is down</p>
+                          ‍
+                         My research encompassed:
+                          Understanding the user goals and needs
+                          Uncovering pain points with the existing user journey
+                          Determining the success of the tasks measured
+                          Gathering insights
+                          </p>
+                          
+                          <p>After collecting the recordings from the user interviews, I conducted affinity mapping with my teammate to synthesise the pains identified. We grouped these problems under common themes and features in the platform.
+                          </p>
+                         <p> I relied on a data-driven approach known as the severity framework to inform my process and list usability issues in order of priority. The framework helps to identify the severity score of a usability issue based on the following three variables:
+                          <div><p>Task criticality x impact x frequency = severity
+                          <p>Task criticality - how important is the task to the user? (1 = low, 5 = critical)</p>
+                          <p>Impact - how much of an impact does this issue have on the user's task? (1 = suggestion, 5 = blocker)</p>
+                          <p>Frequency (%) - how many times does this come up out of total participants?</p></p></div>
+                          </p>
+
+                          <h3>Prioritisation of issues</h3>
+
+                          <p>I took the extra step of categorising these problems into broader Epics to provide the Product managers and engineers with visibility into the key areas of the platform that needed to be addressed from a usability standpoint. This not only helped to prioritise usability issues in order of need but also helped to shape the product roadmap for the quarter.
+                          ‍</p>
+                          
+                          <h3>Wireframing the solution</h3>
+
+                          <p>Based on the above problems identified, I worked towards addressing these pains by coming up with potential solutions:
+                          Reducing the number of steps to minimise time to completion
+                          Surfacing mandatory fields and enabling the Next button to show error validation
+                          Establishing clearer visual form hierarchy by grouping related fields
+                          The lack of a formal wizard component also meant that I had to come up with a standardised styling and UI pattern for future wizards
+                          I quickly mocked up some basic wireframes to gather feedback from Product, Engineering and the users on the overall layout and structure of the wizard form. This involved establishing a standardised visual hierarchy and layout for the future wizard component.
+                          ‍</p>
+                          
+                        <h3>Validating the designs</h3>
+
+                        <p>I conducted usability testing sessions with our primary users to validate whether the new designs would solve their problems. 
+                     
+                          Developing the designs
+                          I created my high fidelity mockups in Sketch and then imported them into Invision to allow the engineers to inspect the file and export the HTML and CSS code.
+                          I worked very closely with the Front End team to spec out any missing interactions that were not covered in the high fidelity mockups. I conducted a UX review of each front-end ticket that was implemented to ensure it was aligned with the designs before it went live.
+                        </p>
+                          
+                          <p><h3>Results and takeaways</h3></p>
+                          Since the implementation of the new rebuild of the Audience Wizard, we have seen a significant decrease in the number of complaints lodged through the service desk. Additionally, I have received positive feedback from users about the simplified configuration of their Audiences, saving them a large proportion of their time.
+                         
+                          <p>Some key takeaways from this project are:</p>
+                          <p>Create a strategic plan to launch an MVP. This helps deal with out-of-scope requests that could potentially derail the project and helps deliver a quality product in time.
+                          User testing doesn't end after development. Design is a constant iteration of improving the experience for the end user. Always find ways to collect and listen to your user's feedback.
+                          Involve engineering upfront. This helps to reduce any rework later on as an understanding of the technical limitations upfront will help to inform your design strategy.
+                        </p>
+                          
+                         
+                          
+                          
+                          </p>
+                        <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Habari</h3>
+                            <p>A lifestyle application</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider31.jpg,img/main-slider32.jpg,img/main-slider33.jpg" class="sr-only reference-description">
+                        <p>Here the design was centered on creating an event module to onboard merchants and connect them with potential customers who are planning an event.</p>
+                        <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-4.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Follow Up</h3>
+                            <p></p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider41.jpg,img/main-slider42.jpg,img/main-slider43.jpg" class="sr-only reference-description">
+                        <p>An application to enable easy follow-up of new members of a church</p>
+                        <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-5.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Free Banq</h3>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider51.jpg,img/main-slider52.jpg,img/main-slider53.jpg" class="sr-only reference-description">
+                        <p>Landing page showing a bank of the future with zero-balance, and zero-charges.</p>
+                        <!-- <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p> -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div data-category="other" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-6.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Project name 6</h3>
+                            <p>Short project description goes here...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-7.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Project name</h3>
+                            <p>Short project description goes here...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div> -->
+                  <!-- </div>
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/portfolio-8.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Project name</h3>
+                            <p>Short project description goes here...</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
+                        <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
+                        <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
+                        <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                      </div>
+                    </div>
+                  </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customers-->
+    <!-- <section id="customers" class="customers-section bg-gray">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-1.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-2.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-3.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-4.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-5.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/customers/logo-6.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="mailto:emmanuel.eguaks@gmail.com">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Your firstname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="surname" placeholder="Your lastname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="phone" placeholder="Your phone" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+    
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <!-- <p class="social"><a href='htps://goal.com' class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p> -->
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2021 Eguaks Media. All rights reserved.</p>
+          </div>
+          <div class="col-12 mt-4">
+            <!-- <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+            Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :) -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
