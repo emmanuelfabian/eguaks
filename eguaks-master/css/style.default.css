@@ -143,7 +143,7 @@ nav.navbar .navbar-brand {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
-  font-family: "Roboto Slab", serif;
+  font-family: "rubik";
 }
 
 nav.navbar a.nav-link {
@@ -398,7 +398,7 @@ nav.navbar a.nav-link:hover {
 }
 
 .statistics-section h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "rubik";
 }
 
 .statistics-section .counter {
@@ -422,7 +422,7 @@ nav.navbar a.nav-link:hover {
 #filter li {
   display: inline-block;
   list-style-type: none;
-  font-family: "Roboto Slab", serif;
+  font-family: "rubik";
   margin-bottom: 30px;
   border-top: solid 1px #4fbfa8;
   border-bottom: solid 1px #4fbfa8;
@@ -641,7 +641,7 @@ footer.main-footer p.social a.email {
 footer.main-footer p {
   margin: 0;
   color: #eee;
-  font-family: "Roboto Slab", serif;
+  font-family: "rubik";
   font-size: 0.9rem;
 }
 
@@ -650,7 +650,7 @@ footer.main-footer p.template-bootstrapious {
   text-align: center;
   color: #eee;
   font-size: 0.9rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "rubik";
 }
 
 footer.main-footer p.template-bootstrapious a {
@@ -1519,7 +1519,7 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "rubik";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1551,7 +1551,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Roboto Slab", serif;
+  font-family: "rubik";
   font-weight: 700;
   line-height: 1.2;
   color: inherit;
